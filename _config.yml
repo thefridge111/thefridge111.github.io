@@ -2,7 +2,11 @@ theme: jekyll-theme-cayman
 title: 'Will Perry'
 description: 'Software Engineer'
 repository: 'thefridge111/thefridge111.github.io'
-
+# Keeps these files from being axed by jekyll when it does the rebuild
+keep_files: ['assets/pdfs/capstone_final.pdf',
+             'assets/pdfs/simple-network-management.pdf',
+             'assets/pdfs/uav-enabled-extension.pdf']
+             
 # Plugins have been moved into a gemfile where they should be.
 # plugins:
 #   - jekyll-livereload

@@ -8,6 +8,7 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/css/grid.css">
   </head>
   <body>
     <section class="page-header">
@@ -26,6 +27,7 @@
       <ul class="header-toolbar">
         <li class="toolbar-item"><a href="index.html">Home</a></li>
         <li class="toolbar-item"><a href="papers.html">Papers</a></li>
+        <li class="toolbar-item"><a href="contact.html">Contact</a></li>
         <!-- <li class="toolbar-item"><a href="index.html">Home</a></li> -->
       </ul>
     </section>
@@ -35,7 +37,7 @@
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+          <span class="site-footer-owner">Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
       </footer>
     </section>
